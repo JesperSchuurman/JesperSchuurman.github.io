@@ -2,8 +2,160 @@
     <html>
         <script>
             /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
-            function myFunction() {
-                document.getElementById("myDropdown").classList.toggle("show");
+            function openReflectieVerslag() {
+                document.getElementById("reflectieVerslag").classList.toggle("show");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("file");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+
+            /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+            function openFeedback() {
+                document.getElementById("feedback").classList.toggle("show");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("file");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+
+            /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+            function openPOP() {
+                document.getElementById("POP").classList.toggle("show");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("file");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+
+            /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+            function openPresentatie() {
+                document.getElementById("presentatie").classList.toggle("show");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("file");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+
+            /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+            function openEdumundo() {
+                document.getElementById("edumundo").classList.toggle("show");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("file");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+
+            /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+            function openInterviewSchema() {
+                document.getElementById("interviewSchema").classList.toggle("show");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("file");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+
+            /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+            function openIntervievTranscript() {
+                document.getElementById("interviewTranscript").classList.toggle("show");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("file");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+
+            /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+            function openAdviesrapport() {
+                document.getElementById("adviesrapport").classList.toggle("show");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("file");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+
+            /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+            function openHogeschooltaal() {
+                document.getElementById("hogeschooltaal").classList.toggle("show");
             }
 
             // Close the dropdown menu if the user clicks outside of it
@@ -35,8 +187,8 @@
                 <div id="item1" class="item">
                     <p class="kopje">Reflectieverslag</p>
                     <div class="dropdown">
-                        <button onclick="myFunction()" class="dropbtn"></button>
-                        <div id="myDropdown" class="file">
+                        <button onclick="openReflectieVerslag()" class="dropbtn"></button>
+                        <div id="reflectieVerslag" class="file">
                             <img class="openFile" src="image/beste kip jonge.jpg" alt="Open Bestand">
                         </div>
                     </div>
@@ -44,8 +196,8 @@
                 <div id="item2" class="item">
                     <p class="kopje">Feedback</p>
                     <div class="dropdown">
-                        <button onclick="myFunction()" class="dropbtn"></button>
-                        <div id="myDropdown" class="file">
+                        <button onclick="openFeedback()" class="dropbtn"></button>
+                        <div id="feedback" class="file">
                             <img class="openFile" src="image/beste kip jonge.jpg" alt="Open Bestand">
                         </div>
                     </div>
@@ -53,8 +205,8 @@
                 <div id="item3" class="item">
                     <p class="kopje">POP</p>
                     <div class="dropdown">
-                        <button onclick="myFunction()" class="dropbtn"></button>
-                        <div id="myDropdown" class="file">
+                        <button onclick="openPOP()" class="dropbtn"></button>
+                        <div id="POP" class="file">
                             <img class="openFile" src="image/beste kip jonge.jpg" alt="Open Bestand">
                         </div>
                     </div>
@@ -62,8 +214,8 @@
                 <div id="item4" class="item">
                     <p class="kopje">Digitale Presentatie</p>
                     <div class="dropdown">
-                        <button onclick="myFunction()" class="dropbtn"></button>
-                        <div id="myDropdown" class="file">
+                        <button onclick="openPresentatie()" class="dropbtn"></button>
+                        <div id="presentatie" class="file">
                             <img class="openFile" src="image/beste kip jonge.jpg" alt="Open Bestand">
                         </div>
                     </div>
@@ -71,8 +223,8 @@
                 <div id="item5" class="item">
                     <p class="kopje">Edumundo</p>
                     <div class="dropdown">
-                        <button onclick="myFunction()" class="dropbtn"></button>
-                        <div id="myDropdown" class="file">
+                        <button onclick="openEdumundo()" class="dropbtn"></button>
+                        <div id="edumundo" class="file">
                             <img class="openFile" src="image/beste kip jonge.jpg" alt="Open Bestand">
                         </div>
                     </div>
@@ -80,8 +232,8 @@
                 <div id="item6" class="item">
                     <p class="kopje">Interview Schema</p>
                     <div class="dropdown">
-                        <button onclick="myFunction()" class="dropbtn"></button>
-                        <div id="myDropdown" class="file">
+                        <button onclick="openInterviewSchema()" class="dropbtn"></button>
+                        <div id="interviewSchema" class="file">
                             <img class="openFile" src="image/beste kip jonge.jpg" alt="Open Bestand">
                         </div>
                     </div>
@@ -89,8 +241,8 @@
                 <div id="item7" class="item">
                     <p class="kopje">Interview Transcript</p>
                     <div class="dropdown">
-                        <button onclick="myFunction()" class="dropbtn"></button>
-                        <div id="myDropdown" class="file">
+                        <button onclick="openIntervievTranscript()" class="dropbtn"></button>
+                        <div id="interviewTranscript" class="file">
                             <img class="openFile" src="image/beste kip jonge.jpg" alt="Open Bestand">
                         </div>
                     </div>
@@ -98,8 +250,8 @@
                 <div id="item8" class="item">
                     <p class="kopje">Technisch Adviesraport</p>
                     <div class="dropdown">
-                        <button onclick="myFunction()" class="dropbtn"></button>
-                        <div id="myDropdown" class="file">
+                        <button onclick="openAdviesrapport()" class="dropbtn"></button>
+                        <div id="adviesrapport" class="file">
                             <img class="openFile" src="image/beste kip jonge.jpg" alt="Open Bestand">
                         </div>
                     </div>
@@ -107,9 +259,9 @@
                 <div id="item9" class="item">
                     <p class="kopje">Hogeschooltaal</p>
                     <div class="dropdown">
-                        <button onclick="myFunction()" class="dropbtn"></button>
-                        <div id="myDropdown" class="file">
-                            <img class="openFile" src="image/beste kip jonge.jpg" alt="Open Bestand">
+                        <button onclick="openHogeschooltaal()" class="dropbtn"></button>
+                        <div id="hogeschooltaal" class="file">
+                            <iframe src="files/certificaat.pdf"></iframe>
                         </div>
                     </div>
                 </div>
