@@ -1,7 +1,28 @@
 <!DOCTYPE html>
     <html>
+        <script>
+            /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                    var dropdowns = document.getElementsByClassName("file");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+        </script>
         <head>
             <title>Jesper Schuurman</title>
+            <link rel="icon" type="image/x-icon" href="image/beste kip jonge.jpg">
             <link rel="stylesheet" href="css/stylesheet.css">
             <meta charset="UTF-8">
         </head>
@@ -13,7 +34,10 @@
             <main>
                 <div id="item1" class="item">
                     <p class="kopje">Reflectieverslag</p>
-                    <img class="openFile" src="image/openFile.png" alt="Open Bestand">
+                    <button onclick="myFunction()" class="dropbtn"><img class="openFile" src="image/openFile.png" alt="Open Bestand"></button>
+                    <div id="myDropdown" class="file">
+                        <a>HAAAAAAAAAAAAAAAAAA</a>
+                    </div>
                 </div>
                 <div id="item2" class="item">
                     <p class="kopje">Feedback</p>

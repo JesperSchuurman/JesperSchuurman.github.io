@@ -20,7 +20,7 @@ header h1 {
 main {
     display: grid;
     background-image: url(../image/bgImage.png);
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(6, 1fr);
 }
 
@@ -28,7 +28,6 @@ main {
     height: 150px;
     width: 200px;
     background-color: whitesmoke;
-    margin-right: 220px;
     border-radius: 10%;
     margin-top: 50px;
 }
@@ -41,10 +40,53 @@ main {
 }
 
 .openFile {
-    margin-left: 60px;
     width: 80px;
     height: 80px;
 }
+
+/* Dropdown Button */
+.dropbtn {
+    margin-left: 60px;
+    height: 80px;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color:white;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .file {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .file a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .file a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
 
 #item1 {
     grid-column: 2;
