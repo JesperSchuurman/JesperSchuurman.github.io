@@ -12,16 +12,16 @@ header {
     justify-items: center;
 }
 
-header h1 {
+header a {
     color: white;
+    text-decoration: none;
     grid-column: 2;
 }
 
-header a {
-    margin-top: 6%;
+header h1 {
     color: white;
     text-decoration: none;
-    grid-column: 1;
+    grid-column: 2;
 }
 
 main {
