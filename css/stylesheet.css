@@ -24,6 +24,21 @@ header h1 {
     grid-column: 2;
 }
 
+.subheader {
+    display: grid;
+    background-color: rgb(19, 19, 19);
+}
+
+.subheader p {
+    border-bottom-color: white;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    color: white;
+    grid-column: 2;
+    text-decoration: none;
+    width: 140px;
+}
+
 main {
     display: grid;
     background-image: url(../image/bgImage.png);
