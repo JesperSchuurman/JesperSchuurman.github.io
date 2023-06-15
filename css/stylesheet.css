@@ -12,6 +12,19 @@ header {
     justify-items: center;
 }
 
+#katze {
+    color: black;
+    grid-column: 3;
+    font-size: xx-small;
+    height: 2px;
+}
+
+#deKatze{
+    grid-column: 3;
+    height: 700px;
+    width: 700px;
+}
+
 header a {
     color: white;
     text-decoration: none;
