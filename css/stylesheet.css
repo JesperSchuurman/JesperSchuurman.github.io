@@ -152,6 +152,10 @@ main {
     height: 5000px;
 }
 
+#advies {
+    height= 1500px;
+}
+
 h2 {
     color: white;
     width: 250%;
