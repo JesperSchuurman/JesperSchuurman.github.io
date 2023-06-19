@@ -167,3 +167,11 @@ h2 {
     grid-row: 2;
     color: red;
 }
+
+video {
+    grid-column: 2;
+    margin-top: 150px;
+    width: 300%;
+    height: 500px;
+    border-style: none;
+}
