@@ -162,3 +162,8 @@ h2 {
 #kop3 {
     grid-row: 5;
 }
+
+#kopie {
+    grid-row: 2;
+    color: red;
+}
