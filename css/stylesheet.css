@@ -132,9 +132,22 @@ main {
 
 .file {
     grid-column: 2;
-    margin-top: 100px;
+    margin-top: 150px;
     width: 300%;
     height: 500px;
     border-style: none;
 }
 
+#feedback {
+    height: 5000px;
+}
+
+h2 {
+    color: white;
+    grid-row: 3;
+    grid-column: 2;
+    width: 250%;
+    margin-left: 25%;
+    font-size: 17px;
+    text-align: center;
+}
