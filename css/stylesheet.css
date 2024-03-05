@@ -202,3 +202,9 @@ video {
     height: 500px;
     border-style: none;
 }
+
+
+img {
+    width: 230%;
+    margin-top: 750px;
+}
