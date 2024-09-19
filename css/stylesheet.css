@@ -43,10 +43,11 @@ header h1 {
     background-color: rgb(19, 19, 19);
 }
 
-.subheader a {
+.subheader p {
     color: white;
     text-decoration: none;
-    width: 120px;
+    width: 200%;
+    margin-left: 165%;
 }
 
 #y1s2 {
@@ -79,6 +80,7 @@ main {
     border-radius: 10%;
     margin-top: 50px;
     margin-left: -100px;
+    text-align: center;
 }
 
 .kopje {
@@ -88,9 +90,13 @@ main {
     justify-content: center;
 }
 
+#langKopje {
+    margin-top: -2px;
+}
+
 .openFile {
     margin-top: -10px;
-    margin-left: 67px;
+    width: 30%;
 }
 
 #item1 {
