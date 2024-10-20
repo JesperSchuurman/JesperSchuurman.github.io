@@ -209,8 +209,72 @@ video {
     border-style: none;
 }
 
-
 #ethiekfoto {
     width: 230%;
     margin-top: 750px;
+}
+
+.info {
+    color: white;
+    text-align: center;
+    margin-left: 550px;
+    width: 400px;
+    max-height: 100px;
+}
+
+.fileChemie {
+    margin-top: 150px;
+    width: 500px;
+    height: 500px;
+    margin-left: -440px;
+    border-style: none;
+}
+
+.fototje {
+    width: 400px;
+    margin-top: 150px;
+    margin-left: -410px;
+}
+
+#uitwerking1 {
+    margin-left: -670px;
+}
+
+#uitwerking2 {
+    margin-left: -250px;
+}
+
+#uitwerkingPdf {
+    margin-top: 750px;
+    margin-left: -740px;
+}
+
+#voorbereiding1 {
+    width: 400px;
+    margin-left: -850px;
+    margin-top: 150px;
+}
+
+#voorbereiding2 {
+    margin-left: -480px;
+}
+
+#voorbereiding3 {
+    margin-left: -100px;
+}
+
+#voorbereidingPdf {
+    margin-top: 800px;
+    margin-left: -940px;
+}
+
+#antonenPdf {
+    margin-top: 170px;
+    margin-left: -460px;
+}
+
+.profKopje {
+    color: white;
+    text-align: center;
+    width: 400px;
 }
