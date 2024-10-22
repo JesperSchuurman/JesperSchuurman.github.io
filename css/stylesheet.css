@@ -278,3 +278,25 @@ video {
     text-align: center;
     width: 400px;
 }
+
+#profKopje1 {
+    margin-left: 565px;
+}
+
+#profKopje2 {
+    margin-left: -540px;
+    margin-top: 220px;
+}
+
+#profKopje3 {
+    margin-left: -550px;
+    margin-top: 400px;
+}
+
+.profInfo {
+    color:white;
+    text-align: center;
+    width: 500px;
+    margin-top: 70px;
+    margin-left: -450px;
+}
