@@ -284,12 +284,12 @@ video {
 }
 
 #profKopje2 {
-    margin-left: -540px;
+    margin-left: -620px;
     margin-top: 220px;
 }
 
 #profKopje3 {
-    margin-left: -550px;
+    margin-left: -630px;
     margin-top: 400px;
 }
 
@@ -299,4 +299,25 @@ video {
     width: 500px;
     margin-top: 70px;
     margin-left: -450px;
+}
+
+#profInfo2 {
+    margin-top: 270px;
+    margin-left: -800px;
+}
+
+#persLink {
+    color: cyan;
+    margin-top: 400px;
+    margin-left: -730px;
+}
+
+#KQ1 {
+    width: 400px;
+    margin-left: 280px;
+}
+
+#KQ2 {
+    width: 400px;
+    margin-left: -200px;
 }
