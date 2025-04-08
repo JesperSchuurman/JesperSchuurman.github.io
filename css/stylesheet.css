@@ -348,6 +348,34 @@ video {
 }
 
 #niews2 {
-    margin-left: -590px;
+    margin-left: -620px;
     margin-top: 175px;
+}
+
+#inzicht {
+    margin-top: 745px;
+    margin-left: -860px;
+}
+
+#inzicht2 {
+    margin-left: 530px;
+    margin-top: -20px;
+}
+
+#profKopje5 {
+    margin-top: 500px;
+    margin-left: -460px;
+}
+
+#profInfo1 {
+    margin-left: -500px;
+}
+
+#ont {
+    margin-top: 550px;
+    margin-left: -630px;
+}
+
+#theo {
+    margin-left: -390px;
 }
